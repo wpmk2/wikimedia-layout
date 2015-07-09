@@ -1,1 +1,91 @@
+* {
+	font-family: sans-serif;
+}
 
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+span {
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: purple;
+}
+
+#welcome {
+	text-align: right;
+}
+
+.CenterBox {
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	max-width: 800px;
+	min-width: 600px;
+}
+
+.textbox {
+	height: 20%;
+	min-width: 600px;
+	font-size: 20px;
+	margin-bottom: 100px;
+}
+
+.img_row {
+	display: flex;
+	justify-content: space-between;
+	min-width: 600px;
+}
+
+.toobig1 {
+	max-height: 155px;
+	max-width: 135px;
+}
+
+.toobig2 {
+	max-height: 135px;
+	max-width: 135px;
+}
+
+.footer {
+	border-top: 1px solid grey;
+	height: 10%;
+	position: relative;
+}
+
+.footer p {
+	text-align: center;
+	font-size: 14px;	
+}
+
+.footer .tandp {
+	text-align: center;
+	height: 15x;
+	width: 30%;
+}
+
+.left {
+	left: 200px;
+	position: absolute;
+}
+
+.right {
+	right: 200px;
+	position: absolute;
+}
+
+* .left, * .right{
+	font-size: 14px;
+}
